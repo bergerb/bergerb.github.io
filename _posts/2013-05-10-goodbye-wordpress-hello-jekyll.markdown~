@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Goodbye Wordpress Hello Jekyll"
+date:   2013-05-10 11:30:52
+categories: wordpress jekyll
+---
+
+I ran a fairly active `WordPress` blog between 2007 and 2009 using the `WordPress` platform.  Towards the end of this time, as life 
+usually catches up to you, and the added maintenance of a host-your-own solution, I didn't quite have the time to manage it.
+
+I have been trying to get back into it and have an active blog.  I changed web hosts and got WordPress up-to-date and imported 
+all my outdated content.  I think WordPress is a great platform for various things (like multimedia, blogging, content) but for 
+just plain-old-blogging `(POB)` I feel it is a bit of overkill.  
+
+I've tried a number of blogging platform to find one that just works for me.  I just want to write and publish.  Enter Jekyll it's simple, 
+extendable, and can even hook into [github pages]
+
+I've been a fan and supported of GitHub for nearly two years now.  The growth from GitHub is just amazing and I believe it is 
+truly an influential product.  Their support of Jekyll in [github pages] really swayed me into taking a look at the software and 
+see what it's all about.
+
+I typically run on a `Windows` machine and I couldn't really get it all working on there so I just fired up an `Ubuntu` image.  
+Getting [jekyll] running in a linux environment was no problem at all.  
+
+Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll.
+
+[jekyll]:    http://jekyllrb.com
+[github pages]: http://pages.github.com
