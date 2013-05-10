@@ -71,7 +71,9 @@ ul.posts span {
 .site .header a {
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .site .header h1.title {
@@ -82,7 +84,7 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: #000;
   font-family: 'Ubuntu', sans-serif;
 }
 
