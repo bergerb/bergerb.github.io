@@ -69,9 +69,8 @@ ul.posts span {
 }
 
 .site .header {
-  font-family: 'Ubuntu' !important;
+  font-family: 'Ubuntu', sans-serif;
   font-style: normal;
-  font-weight: 400;
 }
 
 .site .header a {
@@ -81,8 +80,8 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
-  font-size: 52px;
+  /*margin-bottom: 2em;*/
+  font-size: 64px;
 }
 
 .site .header h1.title a {
@@ -105,6 +104,12 @@ ul.posts span {
 nav {
   float: right;
   margin: 5px 0 0 0;
+}
+
+nav a {
+  display: block;
+  padding-bottom:10px;
+  border-bottom: 2px #aaa;
 }
 
 .site .meta {
