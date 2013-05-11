@@ -7,7 +7,8 @@
         <meta name="viewport" content="width=device-width">
 	
 	<!-- fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -21,7 +22,7 @@
         <div class="container">
           <div class="site">
             <div class="header">
-              <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+              <h1 class="title"><i class="icon-bolt"></i>&nbsp;<a href="/">{{ site.name }}</a></h1>
 		<nav>
         	  <a class="extra" href="/">home</a>
 		</nav>
@@ -38,8 +39,8 @@
               </div>
               <div class="contact">
                 <p>
-                  <a href="http://github.com/bergerb/">github.com/bergerb</a><br />
-                  <a href="http://twitter.com/bergerb/">twitter.com/bergerb</a><br />
+                  <i class="icon-github"></i>&nbsp;<a href="http://github.com/bergerb/">github.com/bergerb</a><br />
+                  <i class="icon-twitter"></i>&nbsp;<a href="http://twitter.com/bergerb/">twitter.com/bergerb</a><br />
                 </p>
               </div>
             </div>

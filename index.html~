@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Cyroot - The Blog of Brent Berger
+title: Cyroot - Brent Berger
 ---
 
 <div id="home">
-  <h1>Blog Posts</h1>
+  <h1><i class="icon-file-alt icon-4"></i>&nbsp;Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>

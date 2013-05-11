@@ -80,12 +80,15 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
   font-size: 64px;
 }
 
 .site .header h1.title a {
   color: #000;
+}
+.site .header h1 i {
+  color:#aaa
 }
 
 .site .header h1.title a:hover {
@@ -95,10 +98,12 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
+  border-bottom: 3px solid #aaa;
 }
 
 .site .header a.extra:hover {
   color: #000;
+  border-bottom: 3px solid #000;
 }
 
 nav {
@@ -108,8 +113,7 @@ nav {
 
 nav a {
   display: block;
-  padding-bottom:10px;
-  border-bottom: 2px #aaa;
+  padding-bottom:2px;
 }
 
 .site .meta {
