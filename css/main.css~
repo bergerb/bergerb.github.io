@@ -79,35 +79,44 @@ ul.posts span {
 .site .header h1.title {
   display: inline-block;
   margin-bottom: 2em;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 3em;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
 }
 
 .site .header h1.title a {
   color: #000;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 .site .header h1.title a:hover {
   color: #000;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .site .header a.extra:hover {
   color: #000;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 nav {
   float: right;
   margin: 5px 0 0 0;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Ubuntu' !important;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .site .meta {
