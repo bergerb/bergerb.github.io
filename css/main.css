@@ -112,7 +112,7 @@ nav {
 }
 
 nav a {
-  display: block;
+  display: inline-block;
   padding-bottom:2px;
 }
 

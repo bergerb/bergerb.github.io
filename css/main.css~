@@ -98,12 +98,12 @@ ul.posts span {
 .site .header a.extra {
   color: #aaa;
   margin-left: 1em;
-  border-bottom: 3px solid #aaa;
+  border-bottom: 4px solid rgb(238, 238, 238);
 }
 
 .site .header a.extra:hover {
   color: #000;
-  border-bottom: 3px solid #000;
+  border-bottom: 4px solid rgb(0, 0, 0);
 }
 
 nav {
