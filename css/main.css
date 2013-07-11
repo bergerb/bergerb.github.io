@@ -60,7 +60,7 @@ ul.posts span {
 .header {
   font-family: 'Titillium Web', sans-serif;
   font-family: "Titillium-Regular",sans-serif;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .header a {
@@ -196,6 +196,7 @@ nav a {
 			font-style: normal;
 			text-decoration: none;
 			color:#000;
+			padding-top: 10px;
 	  }
 	  .muted .headtitle {
 		font-size:50px;
@@ -209,7 +210,7 @@ nav a {
 		color:#A8A8A8;
 	  }
 	  .nav {
-		padding-top: 10px;
+		padding-top: 25px;
 		}
 		.nav a {
 			color: white;
