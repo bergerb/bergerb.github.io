@@ -13,7 +13,7 @@
 h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
+h1 { margin-bottom: 0em; }
 p { margin: 1em 0; }
 
 a         { color: #00a; }
@@ -32,7 +32,8 @@ table {
 /*****************************************************************************/
 ul.posts {
   list-style-type: none;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
+  margin-left: 0em;
 }
 
 ul.posts li {
@@ -42,6 +43,14 @@ ul.posts li {
 ul.posts span {
   color: #aaa;
   font-size: 80%;
+}
+ul.posts a:link, ul.posts a:visited {
+  color: blue;
+}
+ul.posts .date {
+  font-family: "Lucida Console", Monaco, monospace;
+  display: block;
+  font-size: 1em;
 }
 
 /*****************************************************************************/
@@ -60,7 +69,7 @@ ul.posts span {
 .header {
   font-family: 'Titillium Web', sans-serif;
   font-family: "Titillium-Regular",sans-serif;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .header a {
@@ -70,7 +79,7 @@ ul.posts span {
 
 .header h1.title {
   display: inline-block;
-  /*margin-bottom: 2em;*/
+  margin-bottom: 0em;
   font-size: 64px;
 }
 
@@ -196,6 +205,7 @@ nav a {
 			font-style: normal;
 			text-decoration: none;
 			color:#000;
+			padding-top: 10px;
 	  }
 	  .muted .headtitle {
 		font-size:50px;
@@ -209,7 +219,7 @@ nav a {
 		color:#A8A8A8;
 	  }
 	  .nav {
-		padding-top: 10px;
+		padding-top: 25px;
 		}
 		.nav a {
 			color: white;
@@ -225,4 +235,8 @@ padding-top:80px;
 .nav>li>a:hover, .nav>li>a:focus {
 	text-decoration: none;
 	background-color: #c0c0c0;
+}
+
+.personalpic {
+	float: left;
 }
