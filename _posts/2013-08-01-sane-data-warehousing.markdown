@@ -19,3 +19,5 @@ This is not the perfect example but should give you an idea of what you can do t
 
 ### SQL Server Integration Services
 `SSIS` is much more than [Pivot Tables] (though it can pivot data easily) and is great for combining data from multiple system into one `data warehouse`.  The catch with SSIS and SQL Server is the versions of Business Intelligence Development Studio `BIDS` must match the SQL Server the SSIS Package is running on.  A SSIS Package for SQL Server 2005 must be created in BIDS 2005.  SQL Server 2008 must be created in `BIDS` 2008 and so on.
+
+[Pivot Tables]:  http://msdn.microsoft.com/en-us/library/ms177410(v=sql.90).aspx
