@@ -16,7 +16,7 @@ Simple T-SQL Warehousing
 
 Using SQL 2005 or later allows the using of the pivot command when querying data.  Pivot Tables can simplify a lot of reporting and calculations (which take time).  A very simple example of would be the following SQL Statement:
  
-```ruby
+{% highlight sql %}
 -- Example Table
 CREATE TABLE [dbo].[employee_items](
     [id] [int] IDENTITY(1,1) NOT NULL,
@@ -40,7 +40,7 @@ INTO employee_items_warehouse
         SUM(count)
         FOR item IN ([100], [200], [300])
         ) AS PivotTable
-```
+{% endhighlight %}
 
 This is not the perfect example but should give you an idea of what you can do to manipulate the data to create a warehouse.  You wouldn't want to simply do an insert every time you run the process; you would want to do updates / inserts to get the best result.  The `data velocity` (how fast the data changes) or the need of the data updating of the pivot table data can be changed would have an effect on the process itself.  
 
