@@ -15,7 +15,7 @@ Extract, Transform, Load `ETL` is the process to take normalized (usually) data 
 
 Using SQL 2005 or later allows the using of the `pivot` command when `querying` data.  [Pivot Tables] can simplify a lot of reporting and calculations (which take time).  A very simple example of would be the following SQL Statement:
 
-```SQL
+```sql
 -- Example Table
 CREATE TABLE [dbo].[employee_items](
     [id] [int] IDENTITY(1,1) NOT NULL,
