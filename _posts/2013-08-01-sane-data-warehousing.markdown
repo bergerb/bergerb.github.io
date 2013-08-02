@@ -17,7 +17,3 @@ Using SQL 2005 or later allows the using of the `pivot` command when `querying` 
 
 This is not the perfect example but should give you an idea of what you can do to manipulate the data to create a warehouse.  You wouldn't want to simply do an insert every time you run the process; you would want to do updates / inserts to get the best result.  The data velocity (how fast the data changes) or the need of the data updating of the pivot table data can be changed would have an effect on the process itself.  
 
-### SQL Server Integration Services
-`SSIS` is much more than [Pivot Tables] (though it can pivot data easily) and is great for combining data from multiple system into one `data warehouse`.  The catch with SSIS and SQL Server is the versions of Business Intelligence Development Studio `BIDS` must match the SQL Server the SSIS Package is running on.  A SSIS Package for SQL Server 2005 must be created in BIDS 2005.  SQL Server 2008 must be created in `BIDS` 2008 and so on.
-
-[Pivot Tables]:  http://msdn.microsoft.com/en-us/library/ms177410(v=sql.90).aspx
