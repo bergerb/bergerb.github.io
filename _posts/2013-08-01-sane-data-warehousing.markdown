@@ -14,7 +14,7 @@ Extract, Transform, Load `ETL` is the process to take normalized (usually) data 
 
 ### Simple T-SQL Warehousing
 
-Using SQL 2005 or later allows the using of the [pivot](http://msdn.microsoft.com/en-us/library/ms177410(v=sql.90).aspx) command when querying data.  Pivot Tables can simplify a lot of reporting and calculations (which take time).  A very simple example of would be the following SQL Statement:
+Using SQL 2005 or later allows the using of the pivot command when querying data.  Pivot Tables can simplify a lot of reporting and calculations (which take time).  A very simple example of would be the following SQL Statement:
  
 {% highlight sql %}
 -- Example Table
@@ -46,7 +46,7 @@ This is not the perfect example but should give you an idea of what you can do t
 
 ### SQL Server Integration Services
 
-SSIS is much more than [Pivot Tables](http://msdn.microsoft.com/en-us/library/ms177410(v=sql.90).aspx) (though it can pivot data easily) and is great for combining data from multiple system into one data warehouse.  The catch with SSIS and SQL Server is the versions of Business Intelligence Development Studio `BIDS` must match the SQL Server the SSIS Package is running on.  A `SSIS` Package for SQL Server 2005 must be created in `BIDS` 2005.  SQL Server 2008 must be created in `BIDS` 2008 and so on.
+SSIS is much more than Pivot (though it can pivot data easily) and is great for combining data from multiple system into one data warehouse.  The catch with SSIS and SQL Server is the versions of Business Intelligence Development Studio `BIDS` must match the SQL Server the SSIS Package is running on.  A `SSIS` Package for SQL Server 2005 must be created in `BIDS` 2005.  SQL Server 2008 must be created in `BIDS` 2008 and so on.
 
 The amount of tasks/data manipulated/script tasks you can do in SSIS is quite staggering.  I only wanted to mention SSIS since in today's data warehousing world it is one of the best tools on the market.  
 
