@@ -15,28 +15,5 @@ Extract, Transform, Load `ETL` is the process to take normalized (usually) data 
 
 Using SQL 2005 or later allows the using of the `pivot` command when `querying` data.  [Pivot Tables] can simplify a lot of reporting and calculations (which take time).  A very simple example of would be the following SQL Statement:
 
-```sql
--- Example Table
-CREATE TABLE [dbo].[employee_items](
-    [id] [int] IDENTITY(1,1) NOT NULL,
-    [employee_id] [int] NOT NULL,
-	[item] [varchar](10) NOT NULL,
-	[count] [int] NOT NULL,
- CONSTRAINT [PK_employee_items] PRIMARY KEY CLUSTERED 
-(
-	[id] ASC
-)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
-) ON [PRIMARY]
+This is not the perfect example but should give you an idea of what you can do to manipulate the data to create a warehouse.  You wouldn't want to simply do an insert every time you run the process; you would want to do updates / inserts to get the best result.  The data velocity (how fast the data changes) or the need of the data updating of the pivot table data can be changed would have an effect on the process itself.  
 
--- Pivoted Data
-SELECT Employee_id, [100], [200], [300] 
-INTO employee_items_warehouse
-    FROM (
-        SELECT employee_id, item, count
-            FROM Employee_items) AS SourceTable
-        PIVOT
-        (
-        SUM(count)
-        FOR item IN ([100], [200], [300])
-        ) AS PivotTable
-```
