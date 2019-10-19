@@ -38,3 +38,5 @@ BASE_PATH:
 # GitHub Project Pages (http://username.github.io/project-name)
 #  A GitHub Project site exists in the `gh-pages` branch of one of your repositories.
 #  REQUIRED! Set BASE_PATH to "http://username.github.io/project-name"
+
+theme: jekyll-theme-tactile
