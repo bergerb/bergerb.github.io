@@ -34,7 +34,6 @@ logo_file: cloudlogo.png
 
 
 # Build settings
-theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
