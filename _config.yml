@@ -34,7 +34,7 @@ tags_path: tags.html
 logo_file: cloudlogo.png
 
 # Build settings
-theme: jekyll-theme-dinky
+theme: minima
 plugins:
   - jekyll-feed
 
