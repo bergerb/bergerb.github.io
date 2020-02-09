@@ -1,59 +1,79 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you: 
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
 title: bergerb
+subtitle: Adventures in Software Development and Life
+author: Brent Berger
+avatar_url: https://2.gravatar.com/avatar/b9a21f340f4d0b1a72356d69fda65571?s=160
+# email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
+description: > # this means to ignore newlines until "twitter_username:"
+  Technology, Software Development, and Life.
+repository: bergerb/bergerb.github.com
 
-description: >- # this means to ignore newlines until "baseurl:"
-  Adventures in Software Development and Life
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# Google Analytics
+#google_analytics: UA-
+
+# contact
+contact:
+#  email: your-email@domain.com  # Comment out this line if you don't want to expose your email.
+
+# social links
 twitter_username: bergerb
 github_username:  bergerb
+rss: rss
 
-rss_path: feed.xml
-about_path: about.html
-categories_path: categories.html
-tags_path: tags.html
-logo_file: cloudlogo.png
+# 
+# Subscribe Feed
+# 
+# By default, your site generates a subscription feed (RSS/Atom) at /feed.xml
+# Uncomment the next two lines to change the path.
+feed:
+   path: /atom.xml
+
+# If you use a feed publisher such as Feedburner, uncomment the next line
+#subscribe_rss: http://feeds.haacked.com/haacked
+
+# Homepage
+show_excerpts: true  # set to true to show excerpts on the homepage, otherwise full posts are shown
+
+# Comments
+# To enable comments, set the `enabled` field to true and supply either a Disqus short name or a Jekyll comments receiver
+comments:
+  enabled: false
+  show_count: true
+  receiver: https://bergerb-blog.azurewebsites.net/api/PostComment  # See https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/ for more information.
+
+emptyArray: [] # Leave this here.
+
+# haackbar date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+haackbar:
+  date_format: "%b %-d, %Y"
+
+#
+# Jekyll Settings
+#
+permalink: /archive/:year/:month/:day/:title/
+paginate: 5
+page_group_size: 5 # number of pages to group by in the pagination.
+paginate_path: "/archive/page/:num"
+category_dir: categories
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+markdown: kramdown
+kramdown:
+  hard_wrap: false
+remote_theme: haacked/haackbar
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude: [README.md CODE_OF_CONDUCT.md script .gitattributes .gitignore keybase.txt RakeFile]
+keep_files: [images demos code ads.txt robots.txt favicon.ico]
+incremental: true
+
+github: [metadata]
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+  - jekyll-feed
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
