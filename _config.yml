@@ -38,7 +38,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 comments:
   enabled: false
   show_count: true
-  receiver: https://haacked-blog.azurewebsites.net/api/PostComment  # See https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/ for more information.
+  receiver: https://bergerb-blog.azurewebsites.net/api/PostComment  # See https://haacked.com/archive/2018/06/24/comments-for-jekyll-blogs/ for more information.
 
 emptyArray: [] # Leave this here.
 
