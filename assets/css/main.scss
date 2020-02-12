@@ -79,9 +79,21 @@ h1.post-title a {
 
 .site-subtitle {
 	margin-top: 5px;
-	color: $subtitle-color !important;
+	color: $subtitle-color;
 }
 
 .read-more {
+	color: #000;
+}
+
+.meta .date::before, .meta .tags::before, .meta .comments::before, .meta .edit::before { 
+	color: #000;
+}
+
+.meta {
+	color: #000;
+}
+
+.meta a { 
 	color: #000;
 }
