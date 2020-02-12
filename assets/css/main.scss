@@ -6,9 +6,10 @@
 # structure. Add your customizations after the import line.
 ---
 
-$header-background-color: #333232;
-$brand-color:      #B7B7B7;
+$header-background-color: #3a4660;
+$brand-color:      #c9af98;
 $text-color: #333;
+$subtitle-color: #ed8a63;
 $baseurl: '{{ site.baseurl }}';
 
 @import 'haackbar';
@@ -78,4 +79,9 @@ h1.post-title a {
 
 .site-subtitle {
 	margin-top: 5px;
+	color: $subtitle-color !important;
+}
+
+.read-more {
+	color: #000;
 }
