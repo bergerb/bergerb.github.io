@@ -38,7 +38,7 @@ show_excerpts: true  # set to true to show excerpts on the homepage, otherwise f
 comments:
   enabled: true
   show_count: true
-  disqus_shortname: brentberger
+  disqus_shortname: bergerb
     
 
 emptyArray: [] # Leave this here.
