@@ -1,5 +1,4 @@
 ---
-layout: default
 comments: true
 title: "TFS 2018 On-Prem Build Badges"
 description: "Build Badges are a great way to communicate the build status of a given build for a project. "
