@@ -9,11 +9,12 @@ permalink: /explore/
 
 General
 
-*   [Haacked](https://haacked.com/)
-*   [malisper.me](https://malisper.me)
+*   [Haacked](https://haacked.com/){:target="_blank"}
+*   [Scott Hanselman Blog](https://www.hanselman.com/blog/){:target="_blank"}
+*   [malisper.me](https://malisper.me){:target="_blank"}
 
 C#
 
-*   [Don't Code Tired](http://dontcodetired.com/blog/)
-*   [Michael's Coding Spot](https://michaelscodingspot.com/)
-*   [Christian Findlay](https://christianfindlay.com/)  C# and Cross Platform Apps
+*   [Don't Code Tired](http://dontcodetired.com/blog/){:target="_blank"}
+*   [Michael's Coding Spot](https://michaelscodingspot.com/){:target="_blank"}
+*   [Christian Findlay](https://christianfindlay.com/){:target="_blank"}  C# and Cross Platform Apps
