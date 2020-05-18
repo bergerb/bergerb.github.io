@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "twitter_username:"
 repository: bergerb/bergerb.github.com
 
 # Google Analytics
-#google_analytics: UA-
+google_analytics: UA-42285689-1
 
 # contact
 contact:
