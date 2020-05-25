@@ -15,7 +15,7 @@ function setTimer(initialDate) {
 }
 
 /**
- * write time to countUp element
+ * Write Time to countUp Element
  * use moment.js to calculate the time
  * @param {*} initialDate 
  */
