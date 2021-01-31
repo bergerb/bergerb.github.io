@@ -16,3 +16,4 @@ permalink: /explore/
 *   [AvogadroSG1](https://dev.to/avogadrosg1){:target="_blank"}
 *   [Christian Findlay](https://christianfindlay.com/){:target="_blank"}  C# and Cross Platform Apps
 *   [Don't Code Tired](http://dontcodetired.com/blog/){:target="_blank"}
+*   [Fritz on the Web](https://jeffreyfritz.com/){:target="_blank"}
