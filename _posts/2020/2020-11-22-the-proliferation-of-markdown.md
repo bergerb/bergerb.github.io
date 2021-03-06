@@ -64,9 +64,8 @@ These are some simple examples, but there a number of great Markdown resources a
 
 ### Evolutionary Not Revolutionary
 
-This doesn't seem ground-breaking or revolutionary, but I think it is very important.  Having worked for organizations that have consolidated around large Word documents.  What happens is that depending on the year of the documentation creation; that is how the formatting will be forever.  These documents get stuck in time, at least formatting-wise, until someone updates them.  My favorite implementation of Markdown is [Microsoft Docs](https://docs.microsoft.com).  [Microsoft Docs](https://docs.micrsoft.com) links to [Microsoft Docs Github](https://github.com/MicrosoftDocs).  The documentation are shared with the public and then "complied" into the public website;  It's really cool!
+This doesn't seem ground-breaking or revolutionary, but I think it is very important.  Having worked for organizations that have consolidated around large Word documents.  What happens is that depending on the year of the documentation creation; that is how the formatting will be forever.  These documents get stuck in time, at least formatting-wise, until someone updates them.  My favorite implementation of Markdown is [Microsoft Docs](https://docs.microsoft.com).  [Microsoft Docs](https://docs.microsoft.com) links to [Microsoft Docs Github](https://github.com/MicrosoftDocs).  The documentation are shared with the public and then "complied" into the public website;  It's really cool!
 
 ### Challenges Ahead
 
 There are still a number of challenges facing Markdown going forward.  There are a number of flavors and usage restrictions that the sites previously mention use.  I feel at the core they are all quite compatible except for additions and omissions by the providers.  This is something to keep note of when switching between them.
-
