@@ -4,11 +4,12 @@ title: "Standing Desk Conversion Project"
 description: "Converting my home office desk into a standing desk"
 date: 2021-10-03 01:30:50.000000000 -05:00
 tags: [remote, productivity, desk]
+youtubeId: YSJkpp2dzag
 ---
 
 When I worked in an office I had a standing desk and it definitely helped with fatigue and productivity.  I'm sure this is different for each  person, but I find the standing work experience to help keep productivity going.  It will also save some mileage on the chair!
 
-<iframe width="550" height="315" src="http://www.youtube.com/embed/YSJkpp2dzag" frameborder="0" allowfullscreen></iframe>
+{% include youtubePlayer.html id=page.youtubeId %}
 
 <!--more-->
 
