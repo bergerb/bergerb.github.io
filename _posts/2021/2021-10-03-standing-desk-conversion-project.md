@@ -42,7 +42,7 @@ The desk also comes with *3 or 4* sticky zip ties to help hide the cables under 
 
 I also picked up a couple of wire management baskets to deal with all the wires that I have.
 
-[Under Desk Cable Management](https://www.amazon.com/gp/product/B07HMXBSLW/){:target="_blank"} by [https://scandinavianhub.com/](https://scandinavianhub.com/){:target="_blank"}
+[Under Desk Cable Management](https://www.amazon.com/gp/product/B07HMXBSLW/){:target="_blank"} by scandinavianhub
 
 I have a laptop and a desktop on my desk, so dealing with multiple power bricks and cables was a necessity.
 
