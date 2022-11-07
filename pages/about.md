@@ -23,9 +23,6 @@ I work primarily on the stack of: C#, Web API, SQL Server, React, and nHibernate
 
 I like to use different parts of my brain, so from time-to-time I will write about my personal experiences; sometimes technical; sometimes not.
 
-You can find out more about the theme at:
-[haackbar](https://github.com/haacked/haackbar)
-
 You can find the source code for Jekyll at GitHub:
 [jekyll][jekyll-organization] /
 [jekyll](https://github.com/jekyll/jekyll)

@@ -14,7 +14,7 @@ I have been working remotely full-time for nearly a year now: a *3/15/2020* remo
 
 The old lighting in the room was a 3 halogen overhead light.  With the door shut and an hour-long meeting the room would be sizzling!  It was after one of these long meetings that I went outside, in the cold weather, and started shivering uncontrollably.  After that experience I started researching lights to replace my primary light in the office.
 
-I ended up purchasing the: [BAZZ Utility Flush Mount RGBW](https://www.bazzsmarthome.com/collections/lighting/products/14-smart-wifi-white-rgbw-tunable-utility-ceiling-light){:target="_blank"} and I am really enjoying it.
+I ended up purchasing the: `BAZZ Utility Flush Mount RGBW` and I am really enjoying it.
 
 This is a LED driven light that gives up little to no heat as opposed to the halogen lights that gave off an immense heat.  
 
