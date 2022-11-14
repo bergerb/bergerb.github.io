@@ -4,12 +4,12 @@ title: Seamless UX with Blazor Part I
 subtitle: Blazor WASM, Hangfire, and SignalR
 description: An example of seamless UX with Blazor
 date: 2022-11-12 12:30:50.000000000 -05:00
-tags: [dotnet, blazor, wasm, hangfire, signalr]
+tags: [dotnet, blazor, wasm, hangfire, signalr, seamless-ux]
 ---
 
 In my experience, simple user experiences (UX) are quite often not so simple.  Given a `user upload feature` that allows the user to upload a file and from that action to `validate` the file and `notify` the user of various status changes.  Okay, maybe, that is not too simple, but to an end-user this task does not `feel` too complex -- or should not be complicated to the end-user.
 
-How do we make this seamless and what does that mean?  I think a lot of applications are seamed in their early stages.  A user clicks on a link → server processes → server returns OK → redirect user to success page.  Seamless UX simplifies this interact for the user to make their experience simple.  
+How do we make this seamless and what does that mean?  I think a lot of applications are seamed in their early stages.  A user clicks on a link → server processes → server returns OK → redirect user to success page.  Seamless UX simplifies this interact for the end-ser to make their experience simple and complete.
 
 See [SAP Seamless Experience](https://blogs.sap.com/2021/03/24/seamless-user-experience-explained-highlights-from-the-sap-community-call/){:target="_blank"}
 
@@ -20,7 +20,9 @@ See [SAP Seamless Experience](https://blogs.sap.com/2021/03/24/seamless-user-exp
 * No sudden interruptions
 * Simple
 
-Blazor WASM, SQL Server, Web API, Hangfire, and SignalR can deliver a great seamless experience to the end-user.
+## Delivering Seamless UX
+
+The stack of Blazor WASM (WebAssembly), Web API, Entity Framework, Hangfire and SignalR allows for delivering a great seamless experience to the end-user.  It is also such a fun stack to write software on.  Writing C# from the backend to the frontend is a great expeience!  Next we will take a look at a feature request for a personal project I am working on.
 
 ## User Upload Feature
 
@@ -133,7 +135,7 @@ public class ImportFileUpdate
 }
 ```
 
-This is the main engine for notifying client of `Processing Status` updates.  Consuming on the client side (and I've abstract much of the complexity to a higher level) looks like the following.
+This is the main engine for notifying client of `Processing Status` updates.  Consuming on the client side (and I've abstracted much of the complexity to a higher level) looks like the following:
 
 We can receive the SignalR message with a custom hub that has an `EventCallBack<ImportFileUpdate> OnFileStatusChange` that will fire when we receive that notification on the client side.
 
