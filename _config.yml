@@ -21,7 +21,7 @@ contact:
 #  url: https://your-contact-url # Uncomment this to provide a contact form url instead of an email
 
 # social links
-twitter_username: bergerb
+#twitter_username: bergerb
 mastodon:
   username: bergerb
   instance: hachyderm.io
