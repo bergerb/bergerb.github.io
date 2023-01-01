@@ -32,6 +32,7 @@ GEM
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     faraday-net_http (1.0.1)
+    ffi (1.15.5)
     ffi (1.15.5-x64-mingw-ucrt)
     ffi (1.15.5-x64-mingw32)
     forwardable-extended (2.6.0)
@@ -216,7 +217,7 @@ GEM
       jekyll-seo-tag (~> 2.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
-    nokogiri (1.13.9)
+    nokogiri (1.13.10)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     octokit (4.20.0)
@@ -225,7 +226,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.7)
-    racc (1.6.0)
+    racc (1.6.2)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -258,14 +259,15 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
-    wdm (0.1.1)
     webrick (1.7.0)
     zeitwerk (2.6.6)
 
 PLATFORMS
   x64-mingw-ucrt
   x64-mingw32
+  x86_64-linux
 
 DEPENDENCIES
   github-pages
@@ -274,7 +276,6 @@ DEPENDENCIES
   jekyll-remote-theme
   minima (~> 2.0)
   tzinfo-data
-  wdm (>= 0.1.0)
   webrick (~> 1.7)
 
 BUNDLED WITH
