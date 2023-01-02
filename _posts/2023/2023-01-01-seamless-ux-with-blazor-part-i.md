@@ -38,30 +38,7 @@ Here we can see the seamless components working together to help the user comple
 
 > The complexity of simplicity
 
-```mermaid
-    sequenceDiagram;
-        participant ComponentA
-        participant ComponentB
-        participant Server
-        participant SignalR
-        participant Hangfire
-        ComponentA->>Server: Sends File to API
-        Server->>ComponentA: File OK Scheduling Background Job to Validate
-        Server->>Hangfire: Schedule File Validation
-        Hangfire->>SignalR: File Validation Scheduled
-        SignalR->>ComponentB: Notify Validation Scheduled
-        ComponentB->>Server: Get latest data
-        Hangfire->>SignalR: File Validation Started
-        SignalR->>ComponentB: Notify Validation Started
-        ComponentB->>Server: Get latest data
-        loop FileValidationProcess
-            Hangfire->>Hangfire: Is this a valid file?
-        end
-        Note right of Hangfire: Checks file wellness, format, etc
-        Hangfire->>SignalR:File Validation Complete
-        SignalR->>ComponentB:Notify File Validation Complete
-        ComponentB->>Server: Get latest data
-```
+[![](https://mermaid.ink/img/pako:eNqdVFFv0zAQ_isnP4cpWxPaGWloHQIGEkxU4gHlxTiXxJpjB_syKFX_-5ymxaUqlOGnXO77Pn939nnFpC2RcQZhefzWo5H4SonaifZFYWC7OuFISdUJQ3Bj284aNHR9Ij8_nl-ge0D3h5yqjdCfjiffClNXymHMRivPrq5GXR70TenhtdIIZOH67jbiR0jARiIfkR_fw0I2WPZamRrmQt7XzvamhHf26yDzWWhVCsIjWjtbfKeAo-SWoqyJpB12sDuWyg_Bv1TKvb1G7L7xOYcPllS1PEGNhL0WvUECHarxBIEpnuiPwpn8l7tD4tO8aWu7jZkoeeesRO8j5qCGeDS3HqhRHgQ8DGyogs7LyAtXJgbBOYJTdUNgK4gaNw3Ke7-hwnfU2oStE6isawUlgCT_2sfDNg7Fa_ztRh3r47aNp9n_0kyWsBaDXVWGiV8N3IJRgy0WjIfPEivRaypYYdYBKnqyi6WRjJPrMWF9N0zA9nHY_QyT-cXaEFZC-zFmfMV-MD7Nz55fTNPsIp1k6TTPErZkfHaWpvlslk-yy_zyfJJm64T93PDP149HaXaB?type=png)](https://mermaid.live/edit#pako:eNqdVFFv0zAQ_isnP4cpWxPaGWloHQIGEkxU4gHlxTiXxJpjB_syKFX_-5ymxaUqlOGnXO77Pn939nnFpC2RcQZhefzWo5H4SonaifZFYWC7OuFISdUJQ3Bj284aNHR9Ij8_nl-ge0D3h5yqjdCfjiffClNXymHMRivPrq5GXR70TenhtdIIZOH67jbiR0jARiIfkR_fw0I2WPZamRrmQt7XzvamhHf26yDzWWhVCsIjWjtbfKeAo-SWoqyJpB12sDuWyg_Bv1TKvb1G7L7xOYcPllS1PEGNhL0WvUECHarxBIEpnuiPwpn8l7tD4tO8aWu7jZkoeeesRO8j5qCGeDS3HqhRHgQ8DGyogs7LyAtXJgbBOYJTdUNgK4gaNw3Ke7-hwnfU2oStE6isawUlgCT_2sfDNg7Fa_ztRh3r47aNp9n_0kyWsBaDXVWGiV8N3IJRgy0WjIfPEivRaypYYdYBKnqyi6WRjJPrMWF9N0zA9nHY_QyT-cXaEFZC-zFmfMV-MD7Nz55fTNPsIp1k6TTPErZkfHaWpvlslk-yy_zyfJJm64T93PDP149HaXaB)
 
 > Note: Component A and Component B never directly interact with each other.
 
