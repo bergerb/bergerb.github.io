@@ -11,7 +11,6 @@ tags: [dotnet, csharp, efcore, iqueryable]
     async static Task<T> GetRandomEntity<T>(IQueryable<T> query, CancellationToken token)
     {
         var max = query.Count();
-
         return await query.Select(x => x)
             .Skip(new Random().Next(0, max - 1))
             .Take(1)
