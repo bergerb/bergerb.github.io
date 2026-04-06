@@ -101,7 +101,7 @@ defaults:
 markdown: kramdown
 kramdown:
   hard_wrap: false
-remote_theme: bergerb/haackbar
+remote_theme: bergerb/haackbar@main
 
 exclude:
   - Gemfile
