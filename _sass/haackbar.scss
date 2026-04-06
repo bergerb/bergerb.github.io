@@ -101,3 +101,9 @@ $on-mobile:        700px !default;
   .site-footer {
     margin-left: 0;
   }
+
+  .header .site-title:hover {
+    color: $brand-color;
+    text-decoration: underline;
+    transition: none;
+  }
