@@ -107,3 +107,11 @@ $on-mobile:        700px !default;
     text-decoration: underline;
     transition: none;
   }
+
+  // Base a:hover uses lighten(brand-color, 20%) = #ece3db which is nearly
+  // invisible on the white page background (~1.1:1 contrast). Override to
+  // use a dark color with sufficient contrast for WCAG AA compliance.
+  a:hover {
+    color: $header-background-color;
+    transition: none;
+  }
