@@ -65,6 +65,9 @@ emptyArray: [] # Leave this here.
 haackbar:
   date_format: "%b %-d, %Y"
 
+backpack:
+  mode: blog
+
 #
 # Jekyll Settings
 #
@@ -101,13 +104,14 @@ defaults:
 markdown: kramdown
 kramdown:
   hard_wrap: false
-remote_theme: bergerb/haackbar@main
+remote_theme: bergerb/backpack@ed2ed870071cec6f7c48769d0b806be3a7400256
 
 exclude:
   - Gemfile
   - Gemfile.lock
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-feed
