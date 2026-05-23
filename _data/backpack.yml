@@ -1,0 +1,13 @@
+contact:
+  - label: Website
+    href: https://www.bergerb.net/
+    text: bergerb.net
+  - label: GitHub
+    href: https://github.com/bergerb
+    text: github.com/bergerb
+  - label: LinkedIn
+    href: https://www.linkedin.com/in/brent-berger-bb19719/
+    text: linkedin.com/in/brent-berger-bb19719
+  - label: Mastodon
+    href: https://hachyderm.io/@bergerb
+    text: "@bergerb@hachyderm.io"
